@@ -13,25 +13,25 @@ public class Mostrar {
 
     public static void mostrarlnum(int[] lnum) {
         for (int listanum : lnum) {
-            System.out.println("Persoa "+listanum);
+            System.out.println(listanum);
         }
     }
 
     public static void mostrarlnum(float[] lnum) {
         for (float listanum : lnum) {
-            System.out.println("Persoa "+listanum);
+            System.out.println(listanum);
         }
     }
 
     public static void mostrarlString(String[] lnum) {
         for (String listanum : lnum) {
-            System.out.println("Persoa "+listanum);
+            System.out.println(listanum);
         }
     }
 
     public static void mostrarlObject(Object[] lnum) {
         for (Object listanum : lnum) {
-            System.out.println("Alumnos "+listanum);
+            System.out.println(listanum);
         }
     }
 }
